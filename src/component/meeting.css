@@ -1,0 +1,69 @@
+.wrapper{
+    box-shadow: 1px 2px 5px #dddcdc;
+    width: 65%;
+    background-color: white;
+    height: 80vh;
+    border: 1px solid #ebe7e7;
+    margin: 4em auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 940px;
+}
+.other-info{
+    padding: 2em;
+    border-right: 1px solid #f2eded;
+}
+.other-info p:first-child{
+    color: gray;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 0px;
+}
+.other-info h3{
+    margin: 6px 0px;
+}
+.bold_p{
+    color: gray;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 7px 0px;
+}
+.wrapper .form{
+    padding: 1em 3em;
+}
+.form label{
+font-weight: 600;
+}
+.form input, .form textarea{
+    margin: 10px 0px;
+}
+.other-info svg{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.form button{
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: none;
+    margin: 20px 0px;
+}
+form{
+    width: 75%;
+}
+.ant-modal-body p{
+    font-weight: 700;
+    font-size: 15px;
+}
+@media (max-width: 768px){
+
+form {
+    width: 100%;
+}
+.wrapper .form {
+    padding: 0em 2em;
+}
+.wrapper{
+    display: block;
+    width: 90%;
+}
+}
